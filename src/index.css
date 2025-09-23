@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+    --dark-blue: rgba(255, 255, 255, 0.09);
+}
+:root{
+    --shadow-blue: rgba(0,0,255,0.5);
+}
