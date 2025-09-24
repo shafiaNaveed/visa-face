@@ -7,7 +7,7 @@ import Footer from './Components/Footer'
 
 function App() {
   return (
-    <div className='w-[1440px] bg-gradient-to-r from-fuchsia-950 via-slate-500 to-fuchsia-900'>
+    <div className='w-[1440px] h-[3960px] bg-gradient-to-r from-fuchsia-950 via-slate-500 to-fuchsia-900'>
       <Header/>
       <Hero/>
       <Section/>
