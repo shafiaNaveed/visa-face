@@ -1,7 +1,4 @@
 import React from 'react'
-import visaFaceLogo from '../assets/visaface-logo.svg';
-import arrow from '../assets/arrow.svg'
-import scorch from '../assets/scorch.svg'
 
 function Header() {
   return (
@@ -9,7 +6,7 @@ function Header() {
         <div className='w-[1440px] h-[144px] relative text-white -top-[18px] flex flex-col pt-16 pb-6 ga-[34px]'>
             <div className='flex relative left-10 flex-row w-[1280px] h-[56px] justify-between'>
                 <div className=''>
-                    <img className='w-[201px] h-9' src={visaFaceLogo} alt="VisaFace Logo"/>
+                    <img className='w-[201px] h-9' src='/images/visaface-logo.svg' alt="VisaFace Logo"/>
                 </div>
                 <div>
                 <ul className='flex flex-row w-[377px] h-[31px] gap-10 cursor-pointer'>
@@ -22,14 +19,14 @@ function Header() {
                 <div className='w-[166px] h-[56px]'>
                     <button className='flex flex-row leading-[100%] rounded-[32px] pt-4 pr-6 pb-4 pl-6 gap-2 font-[700] text-[16px] tracking-[0%] bg-white text-black'>
                         Get started
-                        <img className='w-4 h-4 gap-2' src={arrow} alt="arrow logo" />
+                        <img className='w-4 h-4 gap-2' src="/images/arrow.svg" alt="arrow logo" />
                     </button>
                 </div>
             </div>
         </div>
         <div className='flex flex-row'>
             <div className='flex flex-col bg-[rgba(285,285,285,0.3)] w-[750px] h-[700px] relative top-[82px] left-[100px] gap-[10px]'>
-            <img className='rounded-[16px]' src={scorch} alt="scorch logo" />
+            <img className='rounded-[16px]' src="images/scorch.svg" alt="scorch logo" />
         </div>
         <div className='flex flex-col w-[610px] h-[430px] relative top-[220px] bg-[rgba(54,3,60,0.5)] right-14 rounded-2xl p-[56px] gap-8'>
             <div className='flex flex-col w-[530px] h-[270px] gap-6'>
@@ -46,7 +43,7 @@ function Header() {
             <div className='flex flex-row w-[530px] h-[59px] gap-6'>
                 <button className='flex flex-row bg-white w-[280px] gap-3 text-[18px] font-[700] tracking-[0%] items-center leading-[100%] h-[59px] rounded-[32px] pt-4 pr-6 pb-4 pl-6'>
                     Connect your Account
-                    <img className='w-4 h-4' src={arrow} alt="arrow logo" />
+                    <img className='w-4 h-4' src="images/arrow.svg" alt="arrow logo" />
                 </button>
             </div>
         </div>

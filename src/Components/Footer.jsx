@@ -1,26 +1,20 @@
 import React from 'react'
-import banner from '../assets/banner.svg'
-import facebook from '../assets/facebook.svg'
-import twitter from '../assets/twitter.svg'
-import insta from '../assets/instagram.svg'
-import youtube from '../assets/youtube.svg'
-import visaFace from '../assets/visaface-logo.svg'
 
 function Footer() {
   return (
     <div className='w-[1440px] h-[496px] relative top-[218px]'>
         <div className='w-[1440px]  h-[496px] bg-[rgba(185,185,185,0.3)]'>
-            <img src={banner} alt="ban" />
+            <img src="/images/banner.svg" alt="ban" />
         </div>
         <div className='flex flex-col w-[1440px] text-white h-[391px] gap-32 items-center bg-[rgba(53,3,60,1)]'>
             <div className='flex flex-row w-[1280px] relative top-10 h-[163px] justify-between'>
                 <div className='flex flex-col w-[210px] h-[99px] gap-5'>
                     <h1 className='w-[83px] h-7 relative top-3'>Follow us</h1>
                     <div className='flex flex-row w-[208px] h-10 gap-4'>
-                        <img src={facebook} alt="icon" />
-                        <img src={twitter} alt="icon" />
-                        <img src={insta} alt="icon" />
-                        <img src={youtube} alt="icon" />
+                        <img src="/images/facebook.svg" alt="icon" />
+                        <img src="/images/twitter.svg" alt="icon" />
+                        <img src="/images/instagram.svg" alt="icon" />
+                        <img src="/images/youtube.svg" alt="icon" />
                     </div>
                 </div>
                 <div className='flex flex-row w-[506px] h-[163px] gap-9'>
@@ -51,7 +45,7 @@ function Footer() {
             </div>
             </div>
             <div className='flex flex-row w-[1280px] h-[56px] items-center gap-40 justify-between'>
-                <img className='w-[201px] h-9' src={visaFace} alt="visaface logo" />
+                <img className='w-[201px] h-9' src="/images/visaface-logo.svg" alt="visaface logo" />
                 <h1 className='w-[307px] h-7 font-[500] text-[18px] leading-[100%] tracking-[0%]'>VisaFace 2025. All rights reserved.</h1>
             </div>
         </div>
