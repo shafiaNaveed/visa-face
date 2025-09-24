@@ -1,10 +1,13 @@
 import React from 'react'
+import screen from '../assets/screen.svg'
+import store from '../assets/icon.svg'
+import play from '../assets/icon.png'
 
 function Action() {
   return (
     <div className='flex flex-row w-[1440px] h-[567px] relative top-[220px] bg-orange-500'>
         <div className='w-[664px] h-[140px] rounded-tr-2xl rounded-br-2xl bg-orange-600 relative top-[180px]'></div>
-        <img className='relative right-[445px] w-[440px] bg-[rgba(285,285,285,0.3)] rounded-2xl h-[516px] top-12' src="src/assets/screen.svg" alt="" />
+        <img className='relative right-[449px] w-[440px] bg-[rgba(285,285,285,0.3)] rounded-2xl h-[516px] top-12' src={screen} alt="mbl screen" />
         <div className='flex flex-col w-[624px] h-[450px] rounded-tl-2xl justify-center rounded-tr-2xl relative top-[120px] right-[220px] gap-[10px] bg-[rgba(80,80,80,0.5)]'>
             <div className='flex flex-col w-[438px] relative left-6 text-white h-[354px] gap-10'>
                 <div className='flex flex-col w-[438px] h-[228px] gap-6'>
@@ -16,14 +19,14 @@ function Action() {
                         <div className='flex flex-col w-[120px] h-[54px]'>
                             <h1 className='font-[500] text-[16px] leading-[150%] tracking-[0%]'>Download on</h1>
                             <h1 className='font-[700] text-[20px] leading-[150%] tracking-[0%]'>Apple Store</h1>
-                                <img className='w-9 h-9 relative bottom-10 left-[116px]' src="src/assets/icon.svg" alt="" />
+                                <img className='w-9 h-9 relative bottom-10 left-[116px]' src={store} alt="icon" />
                         </div>
                     </div>
                     <div className='flex flex-col w-[214px] justify-center items-center h-86px] bg-black'>
                         <div className='flex flex-col w-[120px] h-[54px]'>
                             <h1 className='font-[500] text-[16px] leading-[150%] tracking-[0%]'>Download on</h1>
                             <h1 className='font-[700] text-[20px] leading-[150%] tracking-[0%]'>Google Play</h1>
-                                <img className='w-9 h-9 relative bottom-10 left-[116px]' src="src/assets/icon.png" alt="" />
+                                <img className='w-9 h-9 relative bottom-10 left-[116px]' src={play} alt="icon" />
                         </div>
                     </div>
                 </div>

@@ -1,4 +1,14 @@
 import React from 'react'
+import drop from '../assets/drop.svg'
+import img from '../assets/5.jpg'
+import img1 from '../assets/2.jpg'
+import img2 from '../assets/1.webp'
+import img3 from '../assets/3.jpg'
+import img4 from '../assets/6.jpg'
+import img5 from '../assets/8.jpg'
+import loc from '..//assets/loc.svg'
+
+
 
 function Section() {
   return (
@@ -15,18 +25,18 @@ function Section() {
             <div className='flex flex-row w-[349px] h-[58px] relative top-4 gap-6'>
                 <div className='flex flex-row w-[179px] h-[59px] rounded-[32px] p-4 gap-2 bg-[rgba(195,195,195,0.5)] blur-[20]'>
                     <button className='flex flex-row h-7 text-[18px] gap-3 text-white w-[130px]'>All Category
-                        <img className='w-4 h-2 relative top-3' src="src/assets/drop.svg" alt="" />
+                        <img className='w-4 h-2 relative top-3' src={drop} alt="drop down" />
                     </button>
                 </div>
                 <div className='flex flex-row w-[150px] h-[59px] rounded-[32px] p-4 gap-2 bg-[rgba(195,195,195,0.5)] blur-[20]'>
                     <button className='flex flex-row h-7 text-[18px] gap-3 text-white w-[130px]'>All Dates
-                        <img className='w-4 h-2 relative top-3' src="src/assets/drop.svg" alt="" />
+                        <img className='w-4 h-2 relative top-3' src={drop} alt="drop down" />
                     </button>
                 </div>
             </div>
         </div>
         <div className='grid grid-cols-3 grid-rows-2 w-[1279px] gap-5 h-[878px]'>
-            <div className='flex flex-row w-[405px] h-[423px] rounded-[16px] gap-[10px] bg-[rgba(285,285,285,0.3)] bg-[url(src/assets/5.jpg)]'>
+            <div className='flex flex-row w-[405px] h-[423px] rounded-[16px] gap-[10px] bg-[rgba(285,285,285,0.3)]' style={{backgroundImage: `url(${img})`}}>
             <div className='flex flex-row w-[144px] h-[43px] rounded-[32px] pt-2 pr-6 pb-2 pl-6 shadow-sm shadow-slate-400 relative top-2 left-1 bg-[rgba(185,185,185,0.3)]'>
                 <h1 className='w-[96px] h-[27px] font-[700] text-[18px] leading-[100%] tracking-[0%] text-white justify-center items-start'>$50 - $150</h1>
             </div>
@@ -41,7 +51,7 @@ function Section() {
                     <div className='flex flex-col w-[180px] h-[68px] gap-2 text-white'>
                         <h1 className='w-[180px] h-9 font-[700] text-[18px] leading-[100%] tracking-[0%] items-center'>NYC Jazz Festival</h1>
                         <h1 className='w-[180px] flex flex-row gap-2 h-9 font-[500] text-[16px] leading-[150%] tracking-[0%] items-center'>
-                            <img className='w-[13px] h-4' src="src/assets/loc.svg" alt="" />
+                            <img className='w-[13px] h-4' src={loc} alt="" />
                              Lincoln Center
                             </h1>
                     </div>
@@ -51,7 +61,7 @@ function Section() {
                 </div>
             </div>
             </div>
-            <div className='flex flex-row w-[405px] h-[423px] rounded-[16px] gap-[10px] bg-[rgba(285,285,285,0.3)] bg-[url(src/assets/1.webp)]'>
+            <div className='flex flex-row w-[405px] h-[423px] rounded-[16px] gap-[10px] bg-[rgba(285,285,285,0.3)]' style={{backgroundImage: `url(${img1})`}}>
             <div className='flex flex-row w-[144px] h-[43px] rounded-[32px] pt-2 pr-6 pb-2 pl-6 shadow-sm shadow-slate-400 relative top-2 left-1 bg-[rgba(185,185,185,0.3)]'>
                 <h1 className='w-[96px] h-[27px] font-[700] text-[18px] leading-[100%] tracking-[0%] text-white justify-center items-start'>$50 - $150</h1>
             </div>
@@ -66,7 +76,7 @@ function Section() {
                     <div className='flex flex-col w-[180px] h-[68px] gap-2 text-white'>
                         <h1 className='w-[180px] h-9 font-[700] text-[18px] leading-[100%] tracking-[0%] items-center'>New York Tech Expo</h1>
                         <h1 className='w-[180px] flex flex-row gap-2 h-9 font-[500] text-[16px] leading-[150%] tracking-[0%] items-center'>
-                            <img className='w-[13px] h-4' src="src/assets/loc.svg" alt="" />
+                            <img className='w-[13px] h-4' src={loc} alt="" />
                              Javits Center
                             </h1>
                     </div>
@@ -76,7 +86,7 @@ function Section() {
                 </div>
             </div>
             </div>
-            <div className='flex flex-row w-[405px] h-[423px] rounded-[16px] gap-[10px] bg-[rgba(285,285,285,0.3)] bg-[url(src/assets/3.jpg)]'>
+            <div className='flex flex-row w-[405px] h-[423px] rounded-[16px] gap-[10px] bg-[rgba(285,285,285,0.3)]' style={{backgroundImage: `url(${img2})`}}>
             <div className='flex flex-row w-[144px] h-[43px] rounded-[32px] pt-2 pr-6 pb-2 pl-6 shadow-sm shadow-slate-400 relative top-2 left-1 bg-[rgba(185,185,185,0.3)]'>
                 <h1 className='w-[96px] h-[27px] font-[700] text-[18px] leading-[100%] tracking-[0%] text-white justify-center items-start'>$50 - $150</h1>
             </div>
@@ -91,7 +101,7 @@ function Section() {
                     <div className='flex flex-col w-[180px] h-[68px] gap-2 text-white'>
                         <h1 className='w-[180px] h-9 font-[700] text-[18px] leading-[100%] tracking-[0%] items-center'>NYC Film Festival</h1>
                         <h1 className='w-[180px] flex flex-row gap-2 h-9 font-[500] text-[16px] leading-[150%] tracking-[0%] items-center'>
-                            <img className='w-[13px] h-4' src="src/assets/loc.svg" alt="" />
+                            <img className='w-[13px] h-4' src={loc} alt="" />
                              Tribeca Film Center
                             </h1>
                     </div>
@@ -101,7 +111,7 @@ function Section() {
                 </div>
             </div>
             </div>
-            <div className='flex flex-row w-[405px] h-[423px] rounded-[16px] bg-[rgba(285,285,285,0.3)] gap-[10px] bg-[url(src/assets/2.jpg)]'>
+            <div className='flex flex-row w-[405px] h-[423px] rounded-[16px] bg-[rgba(285,285,285,0.3)] gap-[10px]' style={{backgroundImage: `url(${img3})`}}>
             <div className='flex flex-row w-[144px] h-[43px] rounded-[32px] pt-2 pr-6 pb-2 pl-6 shadow-sm shadow-slate-400 relative top-2 left-1 bg-[rgba(185,185,185,0.3)]'>
                 <h1 className='w-[96px] h-[27px] font-[700] text-[18px] leading-[100%] tracking-[0%] text-white justify-center items-start'>$50 - $150</h1>
             </div>
@@ -116,7 +126,7 @@ function Section() {
                     <div className='flex flex-col w-[180px] h-[68px] gap-2 text-white'>
                         <h1 className='w-[180px] h-9 font-[700] text-[18px] leading-[100%] tracking-[0%] items-center'>Brooklyn Street Art..</h1>
                         <h1 className='w-[180px] flex flex-row gap-2 h-9 font-[500] text-[16px] leading-[150%] tracking-[0%] items-center'>
-                            <img className='w-[13px] h-4' src="src/assets/loc.svg" alt="" />
+                            <img className='w-[13px] h-4' src={loc} alt="" />
                              Williamsburg
                             </h1>
                     </div>
@@ -126,7 +136,7 @@ function Section() {
                 </div>
             </div>
             </div>
-            <div className='flex flex-row w-[405px] h-[423px] rounded-[16px] gap-[10px] bg-[rgba(285,285,285,0.3)] bg-[url(src/assets/9.webp)]'>
+            <div className='flex flex-row w-[405px] h-[423px] rounded-[16px] gap-[10px] bg-[rgba(285,285,285,0.3)]' style={{backgroundImage: `url(${img4})`}}>
             <div className='flex flex-row w-[144px] h-[43px] rounded-[32px] pt-2 pr-6 pb-2 pl-6 shadow-sm shadow-slate-400 relative top-2 left-1 bg-[rgba(185,185,185,0.3)]'>
                 <h1 className='w-[96px] h-[27px] font-[700] text-[18px] leading-[100%] tracking-[0%] text-white justify-center items-start'>$50 - $150</h1>
             </div>
@@ -141,7 +151,7 @@ function Section() {
                     <div className='flex flex-col w-[180px] h-[68px] gap-2 text-white'>
                         <h1 className='w-[180px] h-9 font-[700] text-[18px] leading-[100%] tracking-[0%] items-center'>Queens Internation..</h1>
                         <h1 className='w-[240px] flex flex-row gap-2 h-9 font-[500] text-[16px] leading-[150%] tracking-[0%] items-center'>
-                            <img className='w-[13px] h-4' src="src/assets/loc.svg" alt="" />
+                            <img className='w-[13px] h-4' src={loc} alt="" />
                              Flushing Meadows Corona P..
                             </h1>
                     </div>
@@ -151,7 +161,7 @@ function Section() {
                 </div>
             </div>
             </div>
-            <div className='flex flex-row w-[405px] h-[423px] rounded-[16px] gap-[10px] bg-[rgba(285,285,285,0.3)] bg-[url(src/assets/8.jpg)]'>
+            <div className='flex flex-row w-[405px] h-[423px] rounded-[16px] gap-[10px] bg-[rgba(285,285,285,0.3)]' style={{backgroundImage: `url(${img5})`}}>
             <div className='flex flex-row w-[144px] h-[43px] rounded-[32px] pt-2 pr-6 pb-2 pl-6 shadow-sm shadow-slate-400 relative top-2 left-1 bg-[rgba(185,185,185,0.3)]'>
                 <h1 className='w-[96px] h-[27px] font-[700] text-[18px] leading-[100%] tracking-[0%] text-white justify-center items-start'>$50 - $150</h1>
             </div>
@@ -166,7 +176,7 @@ function Section() {
                     <div className='flex flex-col w-[180px] h-[68px] gap-2 text-white'>
                         <h1 className='w-[190px] h-9 font-[700] text-[18px] leading-[100%] tracking-[0%] items-center'>NY Fashion Week Ru..</h1>
                         <h1 className='w-[180px] flex flex-row gap-2 h-9 font-[500] text-[16px] leading-[150%] tracking-[0%] items-center'>
-                            <img className='w-[13px] h-4' src="src/assets/loc.svg" alt="" />
+                            <img className='w-[13px] h-4' src={loc} alt="" />
                              Spring Studios
                             </h1>
                     </div>
