@@ -3,7 +3,9 @@ import React from 'react'
 function Footer() {
   return (
     <div className='w-[1440px] h-[496px] relative top-[218px]'>
-        <img src="src/assets/banner.svg" alt="" />
+        <div className='w-[1440px]  h-[496px] bg-[rgba(185,185,185,0.3)]'>
+            <img src="src/assets/banner.svg" alt="" />
+        </div>
         <div className='flex flex-col w-[1440px] text-white h-[391px] gap-32 items-center bg-[rgba(53,3,60,1)]'>
             <div className='flex flex-row w-[1280px] relative top-10 h-[163px] justify-between'>
                 <div className='flex flex-col w-[210px] h-[99px] gap-5'>

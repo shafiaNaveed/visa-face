@@ -76,7 +76,7 @@ function Section() {
                 </div>
             </div>
             </div>
-            <div className='flex flex-row w-[405px] h-[423px] rounded-[16px] gap-[10px] bg-[url(src/assets/3.jpg)]'>
+            <div className='flex flex-row w-[405px] h-[423px] rounded-[16px] gap-[10px] bg-[rgba(285,285,285,0.3)] bg-[url(src/assets/3.jpg)]'>
             <div className='flex flex-row w-[144px] h-[43px] rounded-[32px] pt-2 pr-6 pb-2 pl-6 shadow-sm shadow-slate-400 relative top-2 left-1 bg-[rgba(185,185,185,0.3)]'>
                 <h1 className='w-[96px] h-[27px] font-[700] text-[18px] leading-[100%] tracking-[0%] text-white justify-center items-start'>$50 - $150</h1>
             </div>

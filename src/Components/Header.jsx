@@ -25,7 +25,7 @@ function Header() {
             </div>
         </div>
         <div className='flex flex-row'>
-            <div className='flex flex-col w-[750px] h-[700px] relative top-[82px] left-[100px] gap-[10px]'>
+            <div className='flex flex-col bg-[rgba(285,285,285,0.3)] w-[750px] h-[700px] relative top-[82px] left-[100px] gap-[10px]'>
             <img className='rounded-[16px]' src="src/assets/scorch.svg" alt="" />
         </div>
         <div className='flex flex-col w-[610px] h-[430px] relative top-[220px] bg-[rgba(54,3,60,0.5)] right-14 rounded-2xl p-[56px] gap-8'>
