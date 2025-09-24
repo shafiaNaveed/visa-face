@@ -105,7 +105,7 @@ function Section() {
             <div className='flex flex-row w-[144px] h-[43px] rounded-[32px] pt-2 pr-6 pb-2 pl-6 shadow-sm shadow-slate-400 relative top-2 left-1 bg-[rgba(185,185,185,0.3)]'>
                 <h1 className='w-[96px] h-[27px] font-[700] text-[18px] leading-[100%] tracking-[0%] text-white justify-center items-start'>$50 - $150</h1>
             </div>
-            <div className='flex flex-col relative right-[154px] w-[300px] h-[199px] bg-[rgba(185,185,185,0.3)] top-56 p-6 rounded-bl-2xl rounded-br-2xl gap-4'>
+            <div className='flex flex-col relative right-[154px] w-[405px] h-[199px] bg-[rgba(185,185,185,0.3)] top-56 p-6 rounded-bl-2xl rounded-br-2xl gap-4'>
                 <div className='flex flex-row w-[275px] h-[79px] gap-4'>
                     <div className='flex flex-row w-[79px] h-[79px] bg-white rounded-lg p-2'>
                         <div className='flex flex-col w-[63px] h-[63px] text-center font-[700] items-center'>
