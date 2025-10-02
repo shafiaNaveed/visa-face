@@ -10,8 +10,8 @@ function Navbar({setPage}) {
                         </div>
                         <div>
                         <ul className='flex flex-row w-[377px] h-[31px] gap-10 cursor-pointer'>
-                            <li className='w-[55px] h-7 font-[700] text-[18px] tracking-[0%] leading-[150%] justify-center items-center'>Home</li>
-                            <li className='w-[55px] h-7 font-[700] text-[18px] tracking-[0%] leading-[150%] justify-center items-center'>Profile</li>
+                            <li onClick={() => setPage('header')} className='w-[55px] h-7 font-[700] text-[18px] tracking-[0%] leading-[150%] justify-center items-center'>Home</li>
+                            <li onClick={() => setPage('profile')} className='w-[55px] h-7 font-[700] text-[18px] tracking-[0%] leading-[150%] justify-center items-center'>Profile</li>
                             <li className='w-[107px] h-7 font-[600] text-[18px] tracking-[0%] leading-[150%] justify-center items-center'>Connection</li>
                             <li className='w-[37px] h-7 font-[700] text-[18px] tracking-[0%] leading-[150%] justify-center items-center'>FAQ</li>
                         </ul>
