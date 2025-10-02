@@ -1,19 +1,16 @@
-import React from 'react'
+import React,{useState} from 'react'
 import Header from './Components/Header'
-import Hero from './Components/Hero'
-import Section from './Components/Section'
-import Action from './Components/Action'
-import Footer from './Components/Footer'
-
+import GetStarted from './Components/GetStarted/GetStarted'
+import Navbar from './Components/Navbar'
 
 function App() {
+  const [page, setPage] = useState("header")
+ 
   return (
-    <div className='w-[1440px] h-[3960px] bg-gradient-to-r from-fuchsia-950 via-slate-500 to-fuchsia-900'>
-      <Header/>
-      <Hero/>
-      <Section/>
-      <Action/>
-      <Footer/>
+      <div>
+      <Navbar setPage={setPage}/>
+      {page === "header" && <Header/>}
+      {page === "getStarted" && <GetStarted/>}
     </div>
   )
 }
