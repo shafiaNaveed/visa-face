@@ -3,10 +3,10 @@ import React from 'react'
 function Credential() {
   return (
     <div className='w-[1440pxpx] h-[3793px] flex flex-col text-center items-center relative rounded-tr-[30px] rounded-tl-[30px] bg-gradient-to-tr from-blue-400 via-white to-orange-400'>
-    <div className='w-[400px] relative h-10 top-16 justify-center items-center'>
+    <div className='w-[400px] relative h-10 top-72 justify-center items-center'>
         <h1 className='font-[700] text-black text-[22px] leading-[30px]'>Enter your credentials</h1>
       </div>
-      <div className='flex flex-col w-[400px] h-[450px] relative top-24'>
+      <div className='flex flex-col w-[400px] h-[450px] relative top-80'>
             <div className='flex flex-row w-[400px] gap-7 h-[100px] bg-[rgba(153,74,0,0.3)] rounded-[20px]'>
               <img className='relative left-5' src="/images/Ellipse3.svg" alt="" />
               <div className='flex flex-col relative top-5 gap-2 left-3 items-start justify-start w-[290px] h-16'>
@@ -29,7 +29,7 @@ function Credential() {
               <h1 className='text-[16px] relative font-[600] left-32 text-orange-600'>Reset password</h1>
             </div>
           </div>
-          <div className='w-[400px] items-center rounded-[32px] flex flex-row h-[55px] relative top-40 bg-blue-600'>
+          <div className='w-[400px] items-center rounded-[32px] flex flex-row h-[55px] relative top-[300px] bg-blue-600'>
             <button className='text-[20px] w-[340px] h-[40px]'>
               Continue
               <img className='w-4 h-4 relative left-60 rotate-[43deg] bottom-6' src="/images/Arrow.png" alt="" />
