@@ -47,8 +47,8 @@ const renderPage = () => {
 
   return (
     <div className='w-[1440px] h-[891px] flex flex-col relative text-3xl text-white bg-gradient-to-r from-fuchsia-950 via-slate-500 to-fuchsia-900'>
-      <div className='w-[1440px] h-[125px] flex flex-row gap-72 bg-gradient-to-r from-fuchsia-950 via-slate-600 to-fuchsia-900 rounded-tr-[30px] rounded-tl-[30px]'>
-        <div className='w-[180px] h-[55px] relative top-8 left-6'>
+      <div className='w-[1440px] h-[825px] flex flex-row gap-72 bg-gradient-to-r from-fuchsia-950 via-slate-600 to-fuchsia-900 rounded-tr-[30px] rounded-tl-[30px]'>
+        <div className='w-[180px] h-[95px] relative top-8 left-6'>
           <button onClick={goBack} className='w-[150px] h-10 rounded-[32px] text-[18px] font-[700] flex flex-row gap-10 relative top-2 left-3'>
             <img className='w-3 h-3 -rotate-[136deg] relative top-3 left-5' src="/images/Arrow.png" alt="Arrow logo" />
             Back

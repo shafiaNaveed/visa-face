@@ -2,7 +2,7 @@ import React from 'react'
 
 function Connected() {
   return (
-    <div className='w-[1440px] flex flex-col text-center items-center h-[793px] bg-gradient-to-tr from-blue-300 via-white to-orange-300 relative rounded-tr-[30px] rounded-tl-[30px]'>
+    <div className='w-[1440px] flex flex-col text-center items-center h-[3793px] bg-gradient-to-tr from-blue-300 via-white to-orange-300 relative rounded-tr-[30px] rounded-tl-[30px]'>
           <div className='w-[400px] relative h-10 top-20'>
             <h1 className='font-[700] text-black text-[24px] leading-[30px]'>Now You're connected!</h1>
           </div>

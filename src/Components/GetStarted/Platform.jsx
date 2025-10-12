@@ -4,7 +4,7 @@ import Main from '../Main'
 
 function Platform() {
   return (
-    <div className='w-[1440pxpx] h-[793px] flex flex-col text-center items-center relative rounded-tr-[30px] rounded-tl-[30px] bg-gradient-to-tr from-blue-400 via-white to-orange-400'>
+    <div className='w-[1440pxpx] h-[3793px] flex flex-col text-center items-center relative rounded-tr-[30px] rounded-tl-[30px] bg-gradient-to-tr from-blue-400 via-white to-orange-400'>
       <div className='w-[400px] relative h-10 top-16'>
         <h1 className='font-[700] text-black text-[18px] leading-[30px]'>Select your platform</h1>
       </div>
