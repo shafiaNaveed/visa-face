@@ -13,21 +13,21 @@ function Platform() {
               <img className='relative left-5' src="/images/search.svg" alt="" />
                 <h1 className='text-[19px] relative top-10  left-6 font-[600] leading-[100%] text-black'>Search . . .</h1>
             </div>
-            <div className='flex flex-row w-[400px] gap-6 h-[100px] bg-[rgba(0,0,0,0.05)] relative top-3 rounded-[20px]'>
+            <div className='flex flex-row w-[400px] gap-6 h-[100px] bg-[rgba(0,0,0,0.05)] relative top-16 rounded-[20px]'>
               <img className='relative left-3' src="/images/Ellipse1.svg" alt="" />
               <div className='flex flex-col relative top-4 gap-2 left-3 items-start justify-start w-[290px] h-16'>
                 <h1 className='text-[24px] font-[700] text-orange-600 leading-[100%]'>Ticketmaster</h1>
                 <h1 className='text-[14px] font-[600] leading-[100%] text-black'>www.ticketmaster.com</h1>
               </div>
             </div>
-            <div className='flex flex-row w-[400px] gap-6 relative top-6 h-[100px] bg-[rgba(0,0,0,0.05)] rounded-[20px]'>
+            <div className='flex flex-row w-[400px] gap-6 relative top-24 h-[100px] bg-[rgba(0,0,0,0.05)] rounded-[20px]'>
               <img className='relative left-3' src="/images/Ellipse3.svg" alt="" />
               <div className='flex flex-col relative top-4 gap-2 left-3 items-start justify-start w-[290px] h-16'>
                 <h1 className='text-[24px] font-[700] text-orange-600 leading-[100%]'>Island E-Tickets</h1>
                 <h1 className='text-[14px] font-[600] leading-[100%] text-black'>www.islandetickets.com</h1>
               </div>
             </div>
-            <div className='flex flex-row w-[400px] gap-6 h-[100px] bg-[rgba(0,0,0,0.05)] relative top-9 rounded-[20px]'>
+            <div className='flex flex-row w-[400px] gap-6 h-[100px] bg-[rgba(0,0,0,0.05)] relative top-32 rounded-[20px]'>
               <img className='relative left-3' src="/images/Ellipse2.svg" alt="" />
               <div className='flex flex-col relative top-4 gap-2 left-3 items-start justify-start w-[290px] h-16'>
                 <h1 className='text-[24px] font-[700] text-orange-600 leading-[100%]'>Ally</h1>
@@ -35,7 +35,7 @@ function Platform() {
               </div>
             </div>
           </div>
-           <div className='w-[400px] items-center rounded-[32px] flex flex-row h-[55px] top-[400px] relative bg-blue-600'>
+           <div className='w-[400px] items-center rounded-[32px] flex flex-row h-[55px] top-[450px] relative bg-blue-600'>
             <button className='text-[20px] w-[340px] h-[40px]'>
               Continue
               <img className='w-4 h-4 relative left-60 rotate-[43deg] bottom-6' src="/images/Arrow.png" alt="" />

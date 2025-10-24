@@ -14,22 +14,22 @@ function Credential() {
                 <h1 className='text-[14px] font-[600] leading-[100%] text-black'>www.islandetickets.com</h1>
               </div>
             </div>
-            <div className='flex flex-row w-[400px] gap-6 h-[100px] bg-[rgba(0,0,0,0.06)] relative top-3 rounded-[20px]'>
+            <div className='flex flex-row w-[400px] gap-6 h-[100px] bg-[rgba(0,0,0,0.06)] relative top-20 rounded-[20px]'>
               <img className='relative left-6 top-8 h-10 w-10' src="/images/user.svg" alt="" />
                 <h1 className='text-[14px] font-[600] top-10 relative left-6 leading-[100%] text-black'>Username</h1>
             </div>
-            <div className='flex flex-row w-[400px] gap-6 relative top-6 h-[100px] bg-[rgba(0,0,0,0.06)] rounded-[20px]'>
+            <div className='flex flex-row w-[400px] gap-6 relative top-32 h-[100px] bg-[rgba(0,0,0,0.06)] rounded-[20px]'>
               <img className='relative left-6 top-8 w-10 h-10' src="/images/pswrd.svg" alt="" />
               <div className='flex flex-row relative gap-2 top-12 left-6 items-start justify-start w-[290px] h-16'>
                 <h1 className='text-[14px] reative font-[600] leading-[100%] text-black'>Password</h1>
               <img className='relative left-48' src="/images/eye.svg" alt="" />
               </div>
             </div>
-            <div className='w-[400px] h-8 relative top-8'>
+            <div className='w-[400px] h-8 relative top-32'>
               <h1 className='text-[16px] relative font-[600] left-32 text-orange-600'>Reset password</h1>
             </div>
           </div>
-          <div className='w-[400px] items-center rounded-[32px] flex flex-row h-[55px] relative top-[300px] bg-blue-600'>
+          <div className='w-[400px] items-center rounded-[32px] flex flex-row h-[55px] relative top-[350px] bg-blue-600'>
             <button className='text-[20px] w-[340px] h-[40px]'>
               Continue
               <img className='w-4 h-4 relative left-60 rotate-[43deg] bottom-6' src="/images/Arrow.png" alt="" />

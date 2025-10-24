@@ -2,8 +2,8 @@ import React from 'react'
 
 function Profile() {
   return (
-     <div className='w-[1440px] h-[1024px] bg-slate-200'>
-        <div className='flex flex-row w-[150px] h-[80px] gap-6 relative left-[1250px] top-6'>
+     <div className='w-[1440px] h-[3793px] bg-slate-200'>
+        <div className='flex flex-row w-[150px] h-[80px] gap-6 relative left-[1200px] top-6'>
             <div className='w-[52px] h-[52px] rounded-[16px] bg-white relative top-6 left-2'>
                 <img src="/images/bell.svg" alt="" />
             </div>
@@ -11,7 +11,7 @@ function Profile() {
                 <img className='w-6 h-6 relative top-3 left-3' src="/images/gallery.png" alt="" />
             </div>
         </div>
-       <div className='w-[1282px] h-[856px] rounded-[10px] bg-white relative top-[55px] left-[118px]'>
+       <div className='w-[1282px] h-[856px] rounded-[10px] bg-white relative top-[55px] left-[70px]'>
         <div className='w-[1282px] h-[100px]'></div>
         <div className='w-[1282px] h-[100px] relative top-6 flex flex-row'>
             <div className='w-[100px] h-[100px] rounded-[60px] bg-slate-300'>
